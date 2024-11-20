@@ -1,0 +1,47 @@
+
+/* Header */
+.email-template-header{
+    padding: 40px 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Content */
+
+.email-content{
+    width: 34rem;
+    border-radius: 8px;
+    background-color: #fff;
+    margin: auto;
+}
+.content {
+    color: rgba(56, 72, 96, 1);
+    margin: auto;
+}
+
+.input-field{
+    display: flex;
+  align-items: center;
+  column-gap: 10px;
+  margin-bottom: 22px;
+}
+.input-field input {
+    height: 64px;
+    width: 64px;
+    border-radius: 8px;
+    outline: none;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    border: 1px solid #f28b21;
+  }
+  .input-field input::-webkit-inner-spin-button,
+  .input-field input::-webkit-outer-spin-button {
+    display: none;
+  }
+
+.btn {
+  border-radius: 0;
+    margin-bottom: 22px;
+}

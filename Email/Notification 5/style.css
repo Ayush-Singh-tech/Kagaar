@@ -1,0 +1,57 @@
+
+.email-container {
+    background-color: #f1f5f9;
+}
+.wrap{
+    margin: 2rem;
+    background-color: #fff;
+}
+
+.content {
+    color: rgba(56, 72, 96, 1);
+    margin: 0 2.5rem;
+}
+
+/* Map */
+.location-container {
+    overflow: hidden;
+}
+.location-details p{
+    margin: 10px 0;
+}
+
+#map {
+    width: 100%;
+    height: 181px;
+    background-color: #ccc;
+    margin-bottom: 10px;
+}
+
+
+/* Button */
+.btn {
+    border-radius: 0;
+   
+}
+
+
+@media screen and (max-width: 768px) {
+    .location-container {
+        width: 100%;
+        margin: 10px auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .wrap{
+        margin: 1rem;
+    }
+    .header {
+        align-items: flex-start;
+    }
+    .features-list {
+        grid-template-columns: auto;
+    }
+
+
+}

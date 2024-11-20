@@ -1,0 +1,22 @@
+
+.email-container img{
+    max-width: 544px;
+    margin-bottom: 30px;
+}
+
+/* Header */
+.email-template-header{
+    padding: 40px 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Content */
+
+.email-content{
+    width: 34rem;
+}
+.content {
+    margin: auto;
+}

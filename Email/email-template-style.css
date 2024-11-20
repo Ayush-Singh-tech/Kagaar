@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto","Rubik","Inter",sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    padding: 48px 40px;
+    gap: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-links{
+    display: flex;
+    gap: 10px;
+}
+
+.social-links a{
+    padding: 7px;
+text-decoration: none;
+cursor: pointer;
+}
+/* Content */
+.email-container {
+    max-width: 640px;
+    margin: 25px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    overflow: auto;
+}
+
+.email-content{
+    max-width: 34rem;
+    border-radius: 8px;
+    background-color: #fff;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+.email-content img{
+   width: 100%;
+   height: auto;
+}
+.content {
+    color: rgba(56, 72, 96, 1);
+    margin: 2rem 2.5rem;
+}
+
+.content h2{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33.6px;
+    margin-bottom: 22px;
+    color: rgba(18, 26, 38, 1);
+}
+
+.content p {
+    line-height: 1.5;
+    margin-bottom: 22px;
+    text-align: justify;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #f28b21;
+    color: #fff;
+    padding: 20px 45px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.btn:hover {
+    background-color: #ff6200;
+    transform: scale(1.05);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+/* Footer */
+.footer {
+    font-size: 16px;
+    color: rgba(32, 43, 60, 1);
+    margin-top: 20px;
+    padding: 24px 48px;
+}
+
+.footer p {
+    line-height: 1.5;
+    margin-bottom: 22px;
+    text-align: justify;
+}
+
+.footer a:link {
+    color: #f28b21;
+    text-decoration:underline;
+}
+.footer a:hover {
+    color: #ff6200;
+    text-decoration:underline;
+}
+.footer a:visited {
+    color: #2c52f8;
+    text-decoration:underline;
+}
+
+/* digital sign */
+.business-card {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 544px;
+    margin: 20px auto;
+    background-color: #fff;
+    overflow: hidden;
+    margin-top: 0;
+}
+
+/* Left Section */
+.card-left {
+    flex: 1;
+    min-width: 150px;
+    background-color: #eef2f5;
+}
+
+.profile-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Right Section */
+
+.card-right {
+    flex: 2;
+    padding: 20px;
+}
+
+.card-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.card-header h1 {
+    margin: 0;
+    font-size: 21px;
+    font-weight: 700;
+    color: #333;
+}
+
+.card-header p {
+    margin: 5px 0;
+    color: #f28b21;
+    font-weight: 500;
+    font-size: 12px;
+    /* font-family:'DM Sans'; */
+}
+
+.description {
+    margin: 10px 0;
+    font-size: 10.88px;
+    color: #555;
+    line-height: 20.4px;
+}
+.contact-info{
+    display: flex;
+    justify-content: space-between;
+
+}
+.contact-info p {
+    display: flex;
+    align-items: center;
+    font-size: 8.62px;
+    line-height: 10.54px;
+    margin: 8px 0;
+    color: #333;
+}
+
+.contact-info svg {
+    padding-right: 3px;
+}
+
+.qr-code {
+    width: 50px;
+    height: auto;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    .business-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .card-left {
+        min-width: 100%;
+    }
+
+    .card-right {
+        padding: 15px;
+    }
+
+    .contact-info p {
+        justify-content: center;
+    }
+
+    .contact-info img {
+        margin-right: 5px;
+    }
+
+    .qr-code {
+        margin: 0 auto;
+    }
+}
+
+/* Responsive Design */
+@media screen and (max-width: 640px) {
+    .email-container {
+        padding: 10px;
+    }
+
+    .btn {
+        padding: 12px 18px;
+        font-size: 14px;
+    }
+}
